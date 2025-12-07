@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import ChatMessage from './ChatMessage';
-import ChatInput from './ChatInput';
 import GroupList from './GroupList';
 import CreateGroupModal from './CreateGroupModal';
 import { useNavigate } from 'react-router-dom';
