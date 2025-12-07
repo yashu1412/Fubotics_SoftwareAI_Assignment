@@ -95,21 +95,6 @@ export default function Login() {
               </Link>
             </p>
           </div>
-
-          {/* Social login options */}
-          <div className="mt-8 pt-8 border-t border-gray-800">
-            <div className="flex justify-center space-x-4">
-              <button className="p-2 rounded-full bg-gray-800 hover:bg-gray-700">
-                <img src="/facebook-icon.svg" alt="Facebook" className="w-6 h-6" />
-              </button>
-              <button className="p-2 rounded-full bg-gray-800 hover:bg-gray-700">
-                <img src="/twitter-icon.svg" alt="Twitter" className="w-6 h-6" />
-              </button>
-              <button className="p-2 rounded-full bg-gray-800 hover:bg-gray-700">
-                <img src="/google-icon.svg" alt="Google" className="w-6 h-6" />
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </div>
